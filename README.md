@@ -1,6 +1,6 @@
-# IBM Security Verify Sample App for Passkey on Android
+# IBM Verify Sample App for Passkey on Android
 
-An implementation of Android Passkeys with IBM Security Verify as the relying party FIDO service.
+An implementation of Android Passkeys with IBM Verify as the relying party FIDO service.
 
 ## Getting started
 
@@ -10,12 +10,12 @@ The resource links in the prerequisites explain and demonstrate how you create a
 
 - Getting started
 
-> See [Before you begin](https://github.com/ibm-security-verify/webauthn-relying-party-server-swift/blob/main/README.md)
+> See [Before you begin](https://github.com/ibm-verify/webauthn-relying-party-server-swift/blob/main/README.md)
 
 ## Getting started
 1. Open Terminal and clone the repository and open the project folder in Android Studio.
    ```
-   git clone https://github.com/ibm-security-verify/webauthn-passkey-sample-android.git
+   git clone https://github.com/ibm-verify/webauthn-passkey-sample-android.git
    ```
 
 2. Ensure an `assetlinks.json` file is present on your domain in the `.well-known` directory, and that it contains an SHA256 hash of the signing key for your app. For example:
