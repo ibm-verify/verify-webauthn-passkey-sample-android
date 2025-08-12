@@ -1,5 +1,5 @@
 /*
- * Copyright contributors to the IBM Security Verify Sample App for Passkey on Android
+ * Copyright contributors to the IBM Verify Sample App for Passkey on Android
  */
 
 package com.ibm.security.passkeydemo
@@ -7,13 +7,13 @@ package com.ibm.security.passkeydemo
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.ibm.security.relyingpartysdk.NetworkHelper
 import com.ibm.security.relyingpartysdk.RelyingPartyClient
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -21,6 +21,7 @@ import kotlinx.coroutines.async
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.net.URL
+import java.security.MessageDigest
 
 
 class MainActivity : AppCompatActivity() {
@@ -80,4 +81,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 }

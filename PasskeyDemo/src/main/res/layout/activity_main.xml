@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright contributors to the IBM Security Verify Sample App for Passkey on Android
+  ~ Copyright contributors to the IBM Verify Sample App for Passkey on Android
   -->
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"

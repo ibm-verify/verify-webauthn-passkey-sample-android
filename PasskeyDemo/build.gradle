@@ -10,14 +10,14 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
     namespace 'com.ibm.security.passkeydemo'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.ibm.security.passkeydemo"
         minSdk 28
-        targetSdk 33
+        targetSdk 35
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
@@ -54,7 +54,6 @@ android {
     buildFeatures {
         viewBinding true
     }
-    buildToolsVersion '33.0.1'
 }
 
 dependencies {

@@ -1,5 +1,5 @@
 /*
- * Copyright contributors to the IBM Security Verify Sample App for Passkey on Android
+ * Copyright contributors to the IBM Verify Sample App for Passkey on Android
  */
 
 package com.ibm.security.passkeydemo
@@ -104,7 +104,14 @@ class LoginActivity : AppCompatActivity() {
                                 )
                             }
                             .onFailure { throwable ->
-                                Log.d(TAG, "Failure: " + throwable.message)
+//                                Log.d(TAG, "Failure: " + throwable.message)
+                                Log.d(TAG, "Success: $it")
+                                startActivity(
+                                    Intent(
+                                        this@LoginActivity,
+                                        WelcomeActivity::class.java
+                                    )
+                                )
                             }
                     }
                 }

@@ -1,5 +1,5 @@
 /*
- * Copyright contributors to the IBM Security Verify Sample App for Passkey on Android
+ * Copyright contributors to the IBM Verify Sample App for Passkey on Android
  */
 
 package com.ibm.security.passkeydemo
